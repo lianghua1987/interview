@@ -1,0 +1,4 @@
+org/finra/interview/hua/api/Application.class
+org/finra/interview/hua/api/file/boundary/FileService.class
+org/finra/interview/hua/api/file/entity/File.class
+org/finra/interview/hua/api/file/entity/Metadata.class
