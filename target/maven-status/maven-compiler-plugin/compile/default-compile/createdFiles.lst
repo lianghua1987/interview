@@ -1,6 +1,8 @@
+org/finra/interview/hua/api/aws/s3/boundary/AmazonS3Service.class
 org/finra/interview/hua/api/Application.class
 org/finra/interview/hua/api/file/boundary/FileService.class
 org/finra/interview/hua/api/file/entity/File.class
+org/finra/interview/hua/api/aws/s3/controller/AmazonS3ServiceImpl.class
 org/finra/interview/hua/api/file/controller/FileServiceImpl.class
 org/finra/interview/hua/api/jobs/Scheduler.class
 org/finra/interview/hua/api/WebConfiguration.class
