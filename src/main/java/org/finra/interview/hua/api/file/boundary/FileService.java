@@ -1,7 +1,7 @@
 package org.finra.interview.hua.api.file.boundary;
 
 import java.io.InputStream;
-import org.finra.interview.hua.api.file.entity.Metadata;
+import org.finra.interview.hua.api.file.entity.File;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -18,7 +18,7 @@ public interface FileService {
     
     @RequestMapping(path = "/meta", method=RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public Metadata getMetadata();
+    public ResponseEntity<File> getMetadata();
     
     @RequestMapping(method=RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody

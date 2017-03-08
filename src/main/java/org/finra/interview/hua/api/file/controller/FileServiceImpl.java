@@ -2,7 +2,7 @@ package org.finra.interview.hua.api.file.controller;
 
 import java.io.InputStream;
 import org.finra.interview.hua.api.file.boundary.FileService;
-import org.finra.interview.hua.api.file.entity.Metadata;
+import org.finra.interview.hua.api.file.entity.File;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -12,8 +12,8 @@ import org.springframework.web.multipart.MultipartFile;
 public class FileServiceImpl implements FileService {
 
     @Override
-    public Metadata getMetadata() {
-        return new Metadata();
+    public ResponseEntity<File>  getMetadata() {
+        return null;
     }
 
     @Override
