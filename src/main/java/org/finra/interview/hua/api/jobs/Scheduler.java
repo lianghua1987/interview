@@ -41,7 +41,7 @@ public class Scheduler {
 
     private static final AmazonSimpleEmailServiceClient sesClient = new AmazonSimpleEmailServiceClient(new BasicAWSCredentials("AKIAJMKNM5F43H4TV32A", "na3nhylqAph4ZMdVMGwPRqAsg74UXIyDvKQkj4Fn"));
 
-    @Scheduled(fixedRate = 60000)
+    @Scheduled(fixedRate = 3600000)
     public void fetchLatestAndSendEmail() {
         logger.info("Start executing job.");
         List<Metadata> metadatas = fileController.getLatestFile();
