@@ -6,7 +6,7 @@
 - [x] API to search for file IDs with a search criterion (Optional)
 - [x] Write a scheduler in the same app to poll for new items in the last hour and send an email (Optional)
 
-### Metadata entity
+### Metadata Entity
 For simplicity, only file name, size and upload time are set. Rest attribute remain null.
 
 ### AWS S3, SES Authentication
@@ -26,7 +26,7 @@ In order to mock up file system/storage and email sending service, you will need
 You will need to modify "email.to" values in application.property file in order to receive alert email for new files.
 
 
-### Sample Alert Email template
+### Sample Alert Email Template
 We detect 2 new files have been added during past hour.
 
 https://YOUR_DOMAIN/interview1.txt
