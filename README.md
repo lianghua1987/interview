@@ -15,23 +15,13 @@ for security reason.
 
 ## File API
 
-| Request   | Type | param | Response |
+| Request   | Type | Param | Response |
 | ------------- | ------------- | ------------- |------------- |
 | GET  | /api/file  | n/a  |Returns all available file metadata |
 | POST |  /api/file/upload	  | file(required)  |  Returns uploaded file link|
 | GET |  /api/file/search?name=&size=	 | name(optional), size(optional)    | Returns all matched file metadata ids by given query params|
 | GET |  /api/file/{id}	 | id(required)  | Returns file content by given file metadata id|
           	                                                   
-
-	             	                                                
-
-	                                        
-
-	                              
-                                                      
-	                                                
-
-
 ## Scheduled Job
 
 You will need to modify "email.to" values in application.property file in order to receive alert email for new files.
