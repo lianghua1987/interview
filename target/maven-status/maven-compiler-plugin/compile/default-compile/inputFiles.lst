@@ -1,9 +1,0 @@
-/Users/hliang/code/Finra/api/src/main/java/org/finra/interview/hua/api/file/boundary/Test.java
-/Users/hliang/code/Finra/api/src/main/java/org/finra/interview/hua/api/WebConfiguration.java
-/Users/hliang/code/Finra/api/src/main/java/org/finra/interview/hua/api/Application.java
-/Users/hliang/code/Finra/api/src/main/java/org/finra/interview/hua/api/file/entity/Metadata.java
-/Users/hliang/code/Finra/api/src/main/java/org/finra/interview/hua/api/file/controller/FileServiceImpl.java
-/Users/hliang/code/Finra/api/src/main/java/org/finra/interview/hua/api/aws/s3/controller/AmazonS3ServiceImpl.java
-/Users/hliang/code/Finra/api/src/main/java/org/finra/interview/hua/api/aws/s3/boundary/AmazonS3Service.java
-/Users/hliang/code/Finra/api/src/main/java/org/finra/interview/hua/api/file/boundary/FileService.java
-/Users/hliang/code/Finra/api/src/main/java/org/finra/interview/hua/api/jobs/Scheduler.java
