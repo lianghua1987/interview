@@ -14,11 +14,13 @@ import javax.persistence.TemporalType;
 @Entity
 @NamedQueries({
     @NamedQuery(name = "Metadata.getAll", query = "select m from Metadata m" ),
-    @NamedQuery(name = "Metadata.getById", query = "select m from Metadata m where m.id = :id" ),
+    @NamedQuery(name = "Metadata.getByUploadTime", query = "select m from Metadata m where m.uploadTime > :uploadTime" ),
     @NamedQuery(name = "Metadata.getByName", query = "select m from Metadata m where m.name = :name" ),
 })
 public class Metadata implements Serializable {
 
+    private static final long serialVersionUID = 1L;
+    
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
