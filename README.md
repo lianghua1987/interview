@@ -28,6 +28,7 @@ You will need to modify "email.to" values in application.property file in order 
 
 ### Sample Alert Email template
 We detect 2 new files have been added during past hour.
+
 https://YOUR_DOMAIN/interview1.txt
 
 https://YOUR_DOMAIN/interview2
