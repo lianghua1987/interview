@@ -33,5 +33,5 @@ We detect 2 new files have been added during past hour.
 
 https://YOUR_DOMAIN/interview1.txt
 
-https://YOUR_DOMAIN/interview2.
+https://YOUR_DOMAIN/interview2
 
